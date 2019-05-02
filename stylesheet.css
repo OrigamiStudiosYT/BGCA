@@ -72,3 +72,9 @@ h1
 {
     text-align: center;      
 }
+.centertest
+{
+    width: 75%;
+left: 50%;
+margin-left: -37.5%;
+}
