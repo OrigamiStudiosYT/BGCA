@@ -67,3 +67,15 @@ body
    background-color:white;
    background-size: cover;
 }
+.center
+{
+    text-align: center;      
+}
+.centertest
+{
+    width: 75%;
+    left: 50%;
+    margin-left: 17.5%;
+    margin-top: 250px;
+    color: white;
+}
