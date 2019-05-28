@@ -42,15 +42,6 @@ th
    margin-right: 10%;
 }
 
-.donate
-{
-   height: 40%;
-   width: 40%;
-   border: solid 3px white;
-   color: white;
-   font-size: 30px;
-}
-
 .tab
 {
    position: fixed;
@@ -62,7 +53,7 @@ th
 {
    overflow: hidden;
    font-family: Andale Mono, monospace;
-   position: fixed;
+   position: absolute;
 }
 
 .navbar a 
@@ -143,8 +134,8 @@ th
    background-attachment: fixed;
 }
 
-#box3
-{
+
+.box3_image{
    height: 25vh;
    width: 100%;
    background-image: url(b.jpg);
@@ -153,6 +144,29 @@ th
    background-attachment: fixed;
 }
 
+.box3 {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate
+{
+   height: 50%;
+   width: 40%;
+   color: white;
+   font-size: 10vw;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
 #box4
 {
    height: 75vh;
@@ -175,6 +189,26 @@ th
 {
    height: 50vh;
    width: 100%;
-   background-image: url(f.png);
+   background-image: url();
    background-size: cover;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #0098d6;; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }

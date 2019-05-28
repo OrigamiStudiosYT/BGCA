@@ -5,12 +5,12 @@
       <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
       <title> Boys & Girls Club Massachusetts</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="logo_Hands.png" type="image/x-icon" />
    </head>
    
    
    <body>
-      <div class="navbar">
-      
+      <div class="navbar">       
          <a href="help.html">How To Help</a>
          
          <a href="impact.html">Our impact</a>
@@ -45,8 +45,10 @@
          
       </div>
       
-      <div id="box3">
-         <div class="donate" align="center">donate</div>
+      <div class="box3 box3_image text-center mx-auto d-block">
+         <a href="donate.html">
+         <div class="donate"><b>Donate</b></div>      
+          </a>         
       </div>
       
       <div id="box4"> <!--white-->
@@ -90,7 +92,24 @@
       <div id="box2"> <!--white-->
       
       </div>
-     
-     
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+             // When the user scrolls down 20px from the top of the document, show the button
+             window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+              } else {
+                document.getElementById("myBtn").style.display = "none";
+              }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }         
+        </script>
    </body>
 </html>
