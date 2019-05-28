@@ -163,16 +163,32 @@ th
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
+
 a
 {
     text-decoration: none;
 }
+
 #box4
 {
-   height: 75vh;
-   width: 100%;
-   background-color:white;
-   background-size: cover;
+  background-color:white;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text
+{
+   height: 50%;
+   width: 40%;
+   color: black;
+   font-size: 10vw;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif; 
 }
 
 #box5
