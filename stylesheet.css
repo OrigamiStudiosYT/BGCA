@@ -183,11 +183,8 @@ a
 
 .text
 {
-   height: 50%;
-   width: 40%;
    color: black;
    font-size: 10vw;
-   text-align: center;
    font-family: Arial, Helvetica, sans-serif; 
 }
 
