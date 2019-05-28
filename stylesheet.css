@@ -122,6 +122,10 @@ th
    background-size: cover;
    display: table;
    background-attachment: fixed;
+   text-align: center;
+   font-size: xx-large;
+   color: white;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 #box2
@@ -132,6 +136,7 @@ th
    background-size: cover;
    display: table;
    background-attachment: fixed;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 
@@ -152,6 +157,7 @@ th
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .donate
@@ -179,6 +185,7 @@ a
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .text
@@ -199,6 +206,7 @@ a
    background-size: cover;
    display: table;
    background-attachment: fixed;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 #box6
@@ -207,6 +215,7 @@ a
    width: 100%;
    background-image: url();
    background-size: cover;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 #myBtn {
@@ -223,6 +232,7 @@ a
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 #myBtn:hover {
