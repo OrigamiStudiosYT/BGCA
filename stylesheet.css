@@ -81,6 +81,14 @@ th
    border-radius: 25px;
 }
 
+.responsive
+{
+   width: 25%;
+   min-width: 330px;
+   height: auto;
+   padding: 10.7%
+}
+
 .dropdown 
 {
    float: right;
