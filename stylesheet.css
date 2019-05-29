@@ -55,8 +55,13 @@ th
    font-family: Andale Mono, monospace;
    position: fixed;
    background-color: white;
-}
 
+}
+.navbear
+{
+   min-width : 330px;
+   max-width : 500px; 
+}
 .navbar a 
 {
    margin-top: 25px;
