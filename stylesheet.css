@@ -53,7 +53,8 @@ th
 {
    overflow: hidden;
    font-family: Andale Mono, monospace;
-   position: absolute;
+   position: fixed;
+   background-color: white;
 }
 
 .navbar a 
@@ -61,10 +62,18 @@ th
    margin-top: 25px;
    float: right;
    font-size: 23px;
-   color: white;
+   color: #0081c6;
    text-align: center;
    padding: 14px 26px;
    text-decoration: none;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar a:hover
+{
+   background-color: #0098d6;
+   color: white;
+   border-radius: 25px;
 }
 
 .dropdown 
