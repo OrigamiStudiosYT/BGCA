@@ -38,6 +38,7 @@
       <title> Boys & Girls Club Massachusetts</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" href="logo_Hands.png" type="image/x-icon" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    
 <!—
@@ -74,25 +75,28 @@
     ******************************************************************************
 ->
 
-    <div class="navbar">
+    <div class="navbar" id="myTopnav">
       
-         <a href="help.html">How To Help</a>
+     <a href="help.html">How To Help</a>
+        
+     <a href="impact.html">Our impact</a>
+        
+     <a href="advocacy.html">Advocacy</a>
+        
+     <a href="about.html">About Us</a>
+        
+     <a href="yoty.html">Youth Of The Year</a>
+        
+     <a href="Donate.html">Donate</a>
+        
+     <a href="Index.html">Home</a>
          
-         <a href="impact.html">Our impact</a>
-         
-         <a href="advocacy.html">Advocacy</a>
-         
-         <a href="about.html">About Us</a>
-         
-         <a href="yoty.html">Youth Of The Year</a>
-         
-         <a href="Donate.html">Donate</a>
-         
-         <a href="Index.html">Home</a>
-         
-         <img src="logo.png" class="responsive">
+     <img src="logo.png" class="responsive">
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
     </div>
- 
+
 <!—
     ******************************************************************************
     *
@@ -272,7 +276,17 @@
             function topFunction() {
               document.body.scrollTop = 0; // For Safari
               document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            }         
+            }   
+   
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}        
         </script>
    </body>
 </html>
