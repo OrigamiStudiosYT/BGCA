@@ -1,43 +1,160 @@
 <!DOCTYPE HTML>
+<!—
+    ******************************************************************************
+    *
+    *   Program: index.html
+    *
+    *   Description: The homepage of the BGCAM website.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
 
-<html>
+<html style="scroll-behavior: smooth;">
+
+<!—
+    ******************************************************************************
+    *
+    *   Module: head
+    *
+    *   Description: Links the stylesheet, sets the page title, and defines meta data.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+
    <head>
       <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
       <title> Boys & Girls Club Massachusetts</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" href="logo_Hands.png" type="image/x-icon" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    
-   
+<!—
+    ******************************************************************************
+    *
+    *   Module: body
+    *
+    *   Description: The main part of the website.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+
    <body>
-      <div class="navbar">
-       
-         <a href="help.html">How To Help</a>
+<!—
+    ******************************************************************************
+    *
+    *   Module: navbar
+    *
+    *   Description: Lists the names of the pages and links to them.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+    <script src="java.js"></script>
+    <div class="navbar" id="myTopnav">
+      
+     <a href="help.html">How To Help</a>
+        
+     <a href="impact.html">Our impact</a>
+                
+     <a href="about.html">About Us</a>
+        
+     <a href="yoty.html">Youth Of The Year</a>
+        
+     <a href="Donate.html">Donate</a>
+        
+     <a href="Index.html">Home</a>
          
-         <a href="impact.html">Our impact</a>
-         
-         <a href="advocacy.html">Advocacy</a>
-         
-         <a href="about.html">About Us</a>
-         
-         <a href="yoty.html">Youth Of The Year</a>
-         
-         <a href="Donate.html">Donate</a>
-         
-         <a href="Index.html">Home</a>
-         
-         <img src="logo.png" width="15%" style="margin: 10px; margin-left: 40px;">
-      </div>
-   
+     <img src="logo.png" class="responsive">
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+    </div>
+    
+<!—
+    ******************************************************************************
+    *
+    *   Module: dots
+    *
+    *   Description: Used for scrolling
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/30/2019
+    *
+    *   History: 5/28/2019 Creation
+    *
+    ******************************************************************************
+->
+
+      <a href="#bottom"><div class=dot style="top: 53%;"></div></a>
+      <a href="#middle"><div class=dot style="top: 50%;"></div></a>
+      <a href="#top"><div class=dot style="top: 47%;"></div></a>
+ 
+<!—
+    ******************************************************************************
+    *
+    *   Module: box1
+    *
+    *   Description: Used for image formatting.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+      <a name="top"></a> 
       <div id="box1">
-      
+      <h1></br></br>GREAT FUTURES START HERE.</h1>
       </div>
       
+<!—
+    ******************************************************************************
+    *
+    *   Module: box2
+    *
+    *   Description: Used to format a block of text.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+
       <div id="box2"> <!--white-->
-         <h2>Title</h2>   
+         <h2>We give your youth a head start on a great future in all our Clubs</h2>   
          <table>
             <td>
-               The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start. ding
+               Our goal is to help every member to achieve their greatest potential. Through our afterschool programs, we keep America's youth off the streets and help them through their hardships. 76% of Club members in 5th through 12th grades who attend the Club at least once per week are on track for high school graduation. Regularly attending Club members in eighth, 10th and  12th grades are more likely to volunteer at least once a month than their peers nationally. In a Harris Interactive survey, <b style="color: #0081c6;">54% of Boys & Girls Club alumni said the Club “saved my life.”</b>
             </td>
             <td>
                <img src="filler1.jpg" width="500px">
@@ -45,73 +162,121 @@
          </table>
          
       </div>
-      
+<!—
+    ******************************************************************************
+    *
+    *   Module: box3
+    *
+    *   Description: Used to define the donate button.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->      
+      <a name="middle"></a> 
       <div class="box3 box3_image text-center mx-auto d-block">
          <a href="donate.html">
          <div class="donate"><b>Donate</b></div>      
           </a>         
       </div>
       
+<!—
+    ******************************************************************************
+    *
+    *   Module: box4
+    *
+    *   Description: Used to link to other pages with descriptions of the pages.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
       <div id="box4"> <!--white-->
-         <table>
-            <tr>
-               <th>
-                  title
-               </th>
-               <th>
-                  title
-               </th>
-               <th>
-                  title
-               </th>
-               <th>
-                  title
-               </th>
-               <th>
-                  title
-               </th>
-            </tr>
-            <tr>
-               <td>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-            </tr>
-         </table>
-      </div>
-      
+            <div class="row">
+                <div class="column">
+                    <h2 id="size">Find a Club</h2>
+                    <img src="d.jpg">
+                    <p id="sizesmall">Our Clubs across the state help thousands of children, ages 5-18 make a better future for themselves.<br/> GREAT FUTURES START <span style="color: #0081c6;">HERE</span>.</p>
+                    <a href="https://www.bgca.org/get-involved/find-a-club?amenities=&lat=42.4072107&lng=-71.38243740000001&address=Massachusetts,%20USA"><p id="linkcolor">Find a Club</p></a>
+                </div>
+                <div class="column">
+                    <h2 id="size">Our Impact</h2>
+                    <img src="helpful_people.png">
+                    <p id="sizesmall">With over 4.3 million members nationwide, find out how our afterschool programs help today's youth.</p>
+                    <a href="impact.html"><p id="linkcolor">Learn More</p></a>
+                </div>
+                <div class="column">
+                    <h2 id="size">How to Help</h2>
+                    <img src="volunteer.jpg">
+                    <p id="sizesmall">Make a difference in the lives of today's youth. We wouldn't be able to provide the services that we do if it wasn't for the large number of people who dedicate their time to our programs.</p>
+                    <a href="help.html"><p id="linkcolor">Volunteer</p></a>
+                </div>
+           </div>
+      </div>      
+<!—
+    ******************************************************************************
+    *
+    *   Module: box5
+    *
+    *   Description: Used to format an image.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+      <a name="bottom"></a> 
       <div id="box5">
       
       </div>
-      
+
+<!—
+    ******************************************************************************
+    *
+    *   Module: box2
+    *
+    *   Description: Used to format a block of text.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/2/2019 Creation
+    *
+    ******************************************************************************
+->
+
       <div id="box2"> <!--white-->
       
       </div>
-     
-     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        <script>
-             // When the user scrolls down 20px from the top of the document, show the button
-             window.onscroll = function() {scrollFunction()};
 
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-              } else {
-                document.getElementById("myBtn").style.display = "none";
-              }
-            }
+<!—
+    ******************************************************************************
+    *
+    *   Module: topFunction()
+    *
+    *   Description: Creates a button that makes the user automatically scroll to the top of the page.
+    *
+    *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+    *
+    *   Date: 5/28/2019
+    *
+    *   History: 5/28/2019 Creation
+    *
+    ******************************************************************************
+->
 
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-              document.body.scrollTop = 0; // For Safari
-              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            }         
-        </script>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
    </body>
 </html>
