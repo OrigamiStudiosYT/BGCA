@@ -38,6 +38,7 @@
       <title> Boys & Girls Club Massachusetts</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" href="logo_Hands.png" type="image/x-icon" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    
 <!—
@@ -74,25 +75,28 @@
     ******************************************************************************
 ->
 
-    <div class="navbar">
+    <div class="navbar" id="myTopnav">
       
-         <a href="help.html">How To Help</a>
+     <a href="help.html">How To Help</a>
+        
+     <a href="impact.html">Our impact</a>
+        
+     <a href="advocacy.html">Advocacy</a>
+        
+     <a href="about.html">About Us</a>
+        
+     <a href="yoty.html">Youth Of The Year</a>
+        
+     <a href="Donate.html">Donate</a>
+        
+     <a href="Index.html">Home</a>
          
-         <a href="impact.html">Our impact</a>
-         
-         <a href="advocacy.html">Advocacy</a>
-         
-         <a href="about.html">About Us</a>
-         
-         <a href="yoty.html">Youth Of The Year</a>
-         
-         <a href="Donate.html">Donate</a>
-         
-         <a href="Index.html">Home</a>
-         
-         <img src="logo.png" class="responsive">
+     <img src="logo.png" class="responsive">
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
     </div>
- 
+
 <!—
     ******************************************************************************
     *
@@ -182,19 +186,19 @@
                     <h2 id="size">Find a Club</h2>
                     <img src="d.jpg">
                     <p>Our Clubs across the state help thousands of children, ages 5-18 make a better future for themselves.<br/> GREAT FUTURES START <span style="color: #0081c6;">HERE</span>.</p>
-                    <a href="https://www.bgca.org/get-involved/find-a-club?amenities=&lat=42.4072107&lng=-71.38243740000001&address=Massachusetts,%20USA"><p>Find a Club</p></a>
+                    <a href="https://www.bgca.org/get-involved/find-a-club?amenities=&lat=42.4072107&lng=-71.38243740000001&address=Massachusetts,%20USA">Find a Club</a>
                 </div>
                 <div class="column">
                     <h2 id="size">Our Impact</h2>
                     <img src="helpful_people.png">
                     <p>With over 4.3 million members nationwide, find out how our afterschool programs help today's youth.</p>
-                    <a href="ourimpact.html"><p>Learn More</p></a>
+                    <a href="ourimpact.html">Learn More</a>
                 </div>
                 <div class="column">
                     <h2 id="size">How to Help</h2>
                     <img src="volunteer.jpg">
                     <p>Make a difference in the lives of today's youth. We wouldn't be able to provide the services that we do if it wasn't for the large number of people who dedicate their time to our programs.</p>
-                    <a href="howtohelp.html"><p>Volunteer</p></a>
+                    <a href="howtohelp.html">Volunteer</a>
                 </div>
            </div>
       </div>
@@ -272,7 +276,17 @@
             function topFunction() {
               document.body.scrollTop = 0; // For Safari
               document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            }         
+            }   
+   
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}        
         </script>
    </body>
 </html>
