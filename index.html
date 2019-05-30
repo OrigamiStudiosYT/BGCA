@@ -38,6 +38,7 @@
       <title> Boys & Girls Club Massachusetts</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="shortcut icon" href="logo_Hands.png" type="image/x-icon" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    
 <!—
@@ -74,25 +75,28 @@
     ******************************************************************************
 ->
 
-      <div class="navbar">
+    <div class="navbar" id="myTopnav">
       
-         <a href="help.html">How To Help</a>
+     <a href="help.html">How To Help</a>
+        
+     <a href="impact.html">Our impact</a>
+        
+     <a href="advocacy.html">Advocacy</a>
+        
+     <a href="about.html">About Us</a>
+        
+     <a href="yoty.html">Youth Of The Year</a>
+        
+     <a href="Donate.html">Donate</a>
+        
+     <a href="Index.html">Home</a>
          
-         <a href="impact.html">Our impact</a>
-         
-         <a href="advocacy.html">Advocacy</a>
-         
-         <a href="about.html">About Us</a>
-         
-         <a href="yoty.html">Youth Of The Year</a>
-         
-         <a href="Donate.html">Donate</a>
-         
-         <a href="Index.html">Home</a>
-         
-         <img src="logo.png" width="15%" style="margin: 10px; margin-left: 40px;">
-      </div>
- 
+     <img src="logo.png" class="responsive">
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+    </div>
+
 <!—
     ******************************************************************************
     *
@@ -130,15 +134,11 @@
 ->
 
       <div id="box2"> <!--white-->
-         <h2>Title</h2>   
+         <h2>We give your youth a head start on a great future in all our Clubs</h2>   
          <table>
             <td>
-               <img src="filler1.jpg" width="500px">
+               Our goal is to help every member to achieve their greatest potential. Through our afterschool programs, we keep America's youth off the streets and help them through their hardships. 76% of Club members in 5th through 12th grades who attend the Club at least once per week are on track for high school graduation. Regularly attending Club members in eighth, 10th and  12th grades are more likely to volunteer at least once a month than their peers nationally. In a Harris Interactive survey, <b style="color: #0081c6;">54% of Boys & Girls Club alumni said the Club “saved my life.”</b>
             </td>
-            <td>
-               The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start. ding
-            </td>
-
          </table>
          
       </div>
@@ -183,16 +183,22 @@
 
             <div class="row">
                 <div class="column">
-                    <h2>Fist manifest </h2>
+                    <h2 id="size">Find a Club</h2>
                     <img src="d.jpg">
+                    <p>Our Clubs across the state help thousands of children, ages 5-18 make a better future for themselves.<br/> GREAT FUTURES START <span style="color: #0081c6;">HERE</span>.</p>
+                    <a href="https://www.bgca.org/get-involved/find-a-club?amenities=&lat=42.4072107&lng=-71.38243740000001&address=Massachusetts,%20USA">Find a Club</a>
                 </div>
                 <div class="column">
-                    <h2>Helpful person</h2>
+                    <h2 id="size">Our Impact</h2>
                     <img src="helpful_people.png">
+                    <p>With over 4.3 million members nationwide, find out how our afterschool programs help today's youth.</p>
+                    <a href="ourimpact.html">Learn More</a>
                 </div>
                 <div class="column">
-                    <h2>Do the thing</h2>
+                    <h2 id="size">How to Help</h2>
                     <img src="volunteer.jpg">
+                    <p>Make a difference in the lives of today's youth. We wouldn't be able to provide the services that we do if it wasn't for the large number of people who dedicate their time to our programs.</p>
+                    <a href="howtohelp.html">Volunteer</a>
                 </div>
            </div>
       </div>
@@ -270,7 +276,17 @@
             function topFunction() {
               document.body.scrollTop = 0; // For Safari
               document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            }         
+            }   
+   
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}        
         </script>
    </body>
 </html>
