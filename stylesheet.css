@@ -241,6 +241,17 @@ a
   font-family: Helvetica Neue,sans-serif;
 }
 
+#box4 p
+{
+   border-radius: 8px;
+   border: #004B87;
+   text-align: center;
+}
+
+#linkcolor
+{
+    background-color: #53565A;
+}
 * {
   box-sizing: border-box;
 }
@@ -268,7 +279,10 @@ a
 {
     font-size: 3vw;
 }
-
+#sizesmall
+{
+    font-size: 1vw;
+}
 #box5
 {
    height: 50vh;
