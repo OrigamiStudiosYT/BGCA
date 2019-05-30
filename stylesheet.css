@@ -243,14 +243,15 @@ a
 
 #box4 p
 {
-   color: #0081c6;
-   background-color: #53565A;
    border-radius: 8px;
    border: #004B87;
-   font-size: xx-large;
    text-align: center;
 }
 
+#linkcolor
+{
+    background-color: #53565A;
+}
 * {
   box-sizing: border-box;
 }
@@ -278,7 +279,10 @@ a
 {
     font-size: 3vw;
 }
-
+#sizesmall
+{
+    font-size: 1vw;
+}
 #box5
 {
    height: 50vh;
