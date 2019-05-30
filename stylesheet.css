@@ -210,6 +210,16 @@ a
   font-family: Helvetica Neue,sans-serif;
 }
 
+#box4 p
+{
+   color: #0081c6;
+   background-color: #53565A;
+   border-radius: 8px;
+   border: #004B87;
+   font-size: xx-large;
+   text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
