@@ -10,6 +10,7 @@ h2
    color: #0098d6;
    text-align: center;
    font-size:50px;
+   font-family: Helvetica Neue,sans-serif;
 }
 
 h3
@@ -17,13 +18,15 @@ h3
    font-size:30px;
    margin-right: 80px;
    margin-left: 80px;
+   font-family: Helvetica Neue,sans-serif;
 }
 
 p
 {
    margin-right: 80px;
    margin-left: 80px;
-   font-size: 20px
+   font-size: 20px;
+   font-family: Helvetica Neue,sans-serif;
 }
 
 table
