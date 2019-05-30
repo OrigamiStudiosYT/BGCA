@@ -84,6 +84,11 @@ th
    background-color: #004B87;
 }
 
+.top-active, .middle-active, .bottom-active
+{
+   background-color: #FF8200;
+}
+
 .box3_image{
    height: 25vh;
    width: 100%;

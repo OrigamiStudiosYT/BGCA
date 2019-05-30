@@ -74,6 +74,9 @@
     *
     ******************************************************************************
 ->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+    <script src="jquery.visible.js"></script><!-- Obtained from https://github.com/customd/jquery-visible/ -->
     <script src="java.js"></script>
     <div class="navbar" id="myTopnav">
       
@@ -111,9 +114,9 @@
     ******************************************************************************
 ->
 
-      <a href="#bottom"><div class=dot style="top: 53%;"></div></a>
-      <a href="#middle"><div class=dot style="top: 50%;"></div></a>
-      <a href="#top"><div class=dot style="top: 47%;"></div></a>
+      <a href="#bottom"><div class="dot fixed-bottom" style="top: 53%;"></div></a>
+      <a href="#middle"><div class="dot fixed-middle" style="top: 50%;"></div></a>
+      <a href="#top"><div class="dot fixed-top top-active" style="top: 47%;"></div></a>
  
 <!—
     ******************************************************************************
@@ -130,7 +133,7 @@
     *
     ******************************************************************************
 ->
-      <a name="top"></a> 
+      <a name="top" id="top" class="position"></a> 
       <div id="box1">
       <h1></br></br>GREAT FUTURES START HERE.</h1>
       </div>
@@ -178,7 +181,7 @@
     *
     ******************************************************************************
 ->      
-      <a name="middle"></a> 
+      <a name="middle" id="middle" class="position"></a> 
       <div class="box3 box3_image text-center mx-auto d-block">
          <a href="donate.html">
          <div class="donate"><b>Donate</b></div>      
@@ -237,7 +240,7 @@
     *
     ******************************************************************************
 ->
-      <a name="bottom"></a> 
+      <a name="bottom" id="bottom" class="position"></a> 
       <div id="box5">
       
       </div>

@@ -33,3 +33,12 @@ function myFunction()
         x.className = "topnav";
     }
 } 
+
+$(window).on('resize scroll', function() 
+{
+    if ($('#top'.visible()))
+    {
+        
+    }
+    
+}
