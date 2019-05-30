@@ -272,15 +272,15 @@ a
 
 #linkcolor
 {
-    background-color: #53565A;
-    color: #0098d6;
+    background-color: #004B87;
+    color: #FFFFFF;
     padding: 5%;
 }
 
 #linkcolor:hover
 {
    background-color: #0098d6;
-   color: #53565A;
+   color: #ffffff;
 }
 
 * {
