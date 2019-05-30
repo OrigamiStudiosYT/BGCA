@@ -203,6 +203,12 @@ a
    border-radius: 25px;
 }
 
+/* Add an active class to highlight the current page */
+.active {
+   background-color: #0098d6;
+   color: white !important; 
+   border-radius: 25px;
+ }
 /* ********************************    DROPDOWN CLASSES   *********************************** */
 
 .dropdown 
