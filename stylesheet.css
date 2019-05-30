@@ -12,6 +12,13 @@ h2
    font-size:50px;
 }
 
+h3
+{
+   font-size:30px;
+   margin-right: 80px;
+   margin-left: 80px;
+}
+
 p
 {
    margin-right: 80px;
@@ -123,6 +130,24 @@ th
    display: block;
 }
 
+
+.dot
+{
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   background-color: #0081c6;
+   position: fixed; 
+   right: 10px;
+}
+
+
+.dot:hover
+{
+   background-color: #004B87;
+}
+
+
 #box1
 {
    height: 50vh;
@@ -171,10 +196,42 @@ th
    background-attachment: fixed;
 }
 
-#box6
+#boxdonate
 {
    height: 50vh;
    width: 100%;
    background-image: url(f.png);
+   background-size: cover;
+}
+
+#boxyoty
+{
+   height: 50vh;
+   width: 100%;
+   background-image: url(g.png);
+   background-size: cover;
+}
+
+#boxau
+{
+   height: 50vh;
+   width: 100%;
+   background-image: url(h.png);
+   background-size: cover;
+}
+
+#boximpact
+{
+   height: 50vh;
+   width: 100%;
+   background-image: url(i.jpg);
+   background-size: cover;
+}
+
+#boxhelp
+{
+   height: 50vh;
+   width: 100%;
+   background-image: url(j.jpg);
    background-size: cover;
 }
