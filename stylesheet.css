@@ -156,7 +156,7 @@ a
    background-color: white;
 }
      /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .navbar a:not(:last-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -308,7 +308,7 @@ a
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 45vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -381,7 +381,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(f.png);
+   background-image: url(f.gif);
    background-size: cover;
 }
 
@@ -397,7 +397,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(h.png);
+   background-image: url(h.gif);
    background-size: cover;
 }
 
