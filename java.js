@@ -1,5 +1,5 @@
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {dotHandler()};
 
 function scrollFunction() 
 {
@@ -32,27 +32,36 @@ function myFunction()
     {
         x.className = "topnav";
     }
-} 
-
-$window.onscroll = function()
-{
-    if ($('#top').visible())
-    {
-        $('#top').addClass('activeDot');
-        $('#middle').removeClass('activeDot');
-        $('#bottom').removeClass('activeDot');
-    }
-    else if ($('#middle').visible())
-    {
-        $('#middle').addClass('activeDot');
-        $('#top').removeClass('activeDot');
-        $('#bottom').removeClass('activeDot');
-    }
-    else if ($('#bottom').visible())
-    {
-        $('#bottom').addClass('activeDot');
-        $('#middle').removeClass('activeDot');
-        $('#top').removeClass('activeDot');
-    }
-    
 }
+
+// Following code obtained from Connor Hurley
+function dotHandler()
+    {
+        var top = document.getElementById("top");
+        var middle = document.getElementById("middle");
+        var bottom = document.getElementById("bottom");
+        var topButton = document.getElementById("topButton");
+        var middleButton = document.getElementById("middleButton");
+        var bottomButton = document.getElementById("bottomButton");
+        if ($(top).visible(true))
+        {
+            $(middleButton).removeClass('activeDot');
+            $(bottomButton).removeClass('activeDot');
+            $(topButton).addClass('activeDot');
+
+        }
+        else if ($(middle).visible())
+        {
+            $(topButton).removeClass('activeDot');
+            $(bottomButton).removeClass('activeDot');
+            $(middleButton).addClass('activeDot');
+
+        }
+        else if ($(bottom).visible())
+        {
+            $(middleButton).removeClass('activeDot');
+            $(topButton).removeClass('activeDot');
+            $(bottomButton).addClass('activeDot');
+
+        }
+    }
