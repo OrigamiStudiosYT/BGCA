@@ -267,12 +267,12 @@ a
 }
 
 /* ********************************    ID ITEMS   *********************************** */
-#size
+.size
 {
     font-size: 3vw;
 }
 
-#sizesmall
+.sizesmall
 {
     font-size: 1vw;
 }
@@ -291,7 +291,7 @@ a
    font-family: Helvetica Neue,sans-serif;
 }
 
-#box2
+.box2
 {
    height: 50vh;
    width: 100%;
@@ -322,14 +322,14 @@ a
    text-align: center;
 }
 
-#linkcolor
+.linkcolor
 {
     background-color: #004B87;
     color: #FFFFFF;
     padding: 5%;
 }
 
-#linkcolor:hover
+.linkcolor:hover
 {
    background-color: #0098d6;
    color: #ffffff;

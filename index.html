@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<!—
+<!--
     ******************************************************************************
     *
     *   Program: index.html
@@ -13,11 +13,11 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
-<html style="scroll-behavior: smooth;">
+<html lang="en" style="scroll-behavior: smooth;">
 
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: head
@@ -31,17 +31,18 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
    <head>
+       <meta charset="utf-8"/>
       <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
       <title> Boys & Girls Club Massachusetts</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="shortcut icon" href="logo_Hands.png" type="image/x-icon" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
    </head>
    
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: body
@@ -55,11 +56,11 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
    <body>
    
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: navbar
@@ -73,7 +74,7 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     
     <script src="jquery.visible.js"></script><!-- Obtained from https://github.com/customd/jquery-visible/ -->
@@ -92,13 +93,13 @@
         
      <a href="Index.html" class="active">Home</a>
          
-     <img src="logo.png" class="responsive">
+     <img src="logo.png" class="responsive" alt="Logo for Boys and Girls Club">
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
          <i class="fa fa-bars"></i>
        </a>
     </div>
     
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: dots
@@ -112,13 +113,13 @@
     *   History: 5/28/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
       <a href="#bottom"><div id="bottom" class="dot" style="top: 53%;"></div></a>
       <a href="#middle"><div id="middle" class="dot" style="top: 50%;"></div></a>
       <a href="#top"><div id="top" class="dot activeDot" style="top: 47%;"></div></a>
  
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: box1
@@ -132,13 +133,13 @@
     *   History: 5/2/2019 Creation Noodles
     *
     ******************************************************************************
-->
-      <a name="top" id="top"></a> 
+-->
+      
       <div id="box1">
       <h1 style="margin-top: 100px;"><br/><br/>GREAT FUTURES START HERE.</h1>
       </div>
       
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: box2
@@ -152,21 +153,25 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
-      <div id="box2"> <!--white-->
+      <div class="box2"> <!--white-->
          <h2>We give your youth a head start on a great future in all our Clubs</h2>   
          <table>
-            <td>
-               Our goal is to help every member to achieve their greatest potential. Through our afterschool programs, we keep America's youth off the streets and help them through their hardships. 76% of Club members in 5th through 12th grades who attend the Club at least once per week are on track for high school graduation. Regularly attending Club members in eighth, 10th and  12th grades are more likely to volunteer at least once a month than their peers nationally. In a Harris Interactive survey, <b style="color: #0081c6;">54% of Boys & Girls Club alumni said the Club “saved my life.”</b>
-            </td>
-            <td>
-               <img src="filler1.jpg" width="500px">
-            </td>
+            <tbody>
+                <tr>
+                    <td>
+                    Our goal is to help every member to achieve their greatest potential. Through our afterschool programs, we keep America's youth off the streets and help them through their hardships. 76% of Club members in 5th through 12th grades who attend the Club at least once per week are on track for high school graduation. Regularly attending Club members in eighth, 10th and  12th grades are more likely to volunteer at least once a month than their peers nationally. In a Harris Interactive survey, <b style="color: #0081c6;">54% of Boys & Girls Club alumni said the Club “saved my life.”</b>
+                    </td>
+                    <td>
+                     <img style="width: 500px;" src="filler1.jpg" alt="Kids raising there hands to teacher">
+                    </td>
+                </tr>
+            </tbody>
          </table>
          
       </div>
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: box3
@@ -180,15 +185,15 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->      
-      <a name="middle" id="middle"></a> 
+-->      
+      <a id="middle"></a> 
       <div class="box3 box3_image text-center mx-auto d-block">
          <a href="donate.html">
          <div class="donate"><b>Donate</b></div>      
           </a>         
       </div>
       
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: box4
@@ -202,30 +207,30 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
       <div id="box4"> <!--white-->
             <div class="row">
                 <div class="column">
-                    <h2 id="size">Find a Club</h2>
-                    <img src="d.gif">
-                    <p id="sizesmall">Our Clubs across the state help thousands of children, ages 5-18 make a better future for themselves.<br/> GREAT FUTURES START <span style="color: #0081c6;">HERE</span>.</p>
-                    <a href="https://www.bgca.org/get-involved/find-a-club?amenities=&lat=42.4072107&lng=-71.38243740000001&address=Massachusetts,%20USA" target="_blank"><p id="linkcolor">Find a Club</p></a>
+                    <h2 class="size">Find a Club</h2>
+                    <img src="d.gif" alt="Kids respects man">
+                    <p class="sizesmall">Our Clubs across the state help thousands of children, ages 5-18 make a better future for themselves.<br/> GREAT FUTURES START <span style="color: #0081c6;">HERE</span>.</p>
+                    <a href="https://www.bgca.org/get-involved/find-a-club?amenities=&lat=42.4072107&lng=-71.38243740000001&address=Massachusetts,%20USA" target="_blank"><p class="linkcolor">Find a Club</p></a>
                 </div>
                 <div class="column">
-                    <h2 id="size">Our Impact</h2>
-                    <img src="helpful_people.png">
-                    <p id="sizesmall">With over 4.3 million members nationwide, find out how our afterschool programs help today's youth.</p>
-                    <a href="impact.html"><p id="linkcolor">Learn More</p></a>
+                    <h2 class="size">Our Impact</h2>
+                    <img src="helpful_people.png" alt="Helpful people">
+                    <p class="sizesmall">With over 4.3 million members nationwide, find out how our afterschool programs help today's youth.</p>
+                    <a href="impact.html"><p class="linkcolor">Learn More</p></a>
                 </div>
                 <div class="column">
-                    <h2 id="size">How to Help</h2>
-                    <img src="volunteer.jpg">
-                    <p id="sizesmall">Make a difference in the lives of today's youth. We wouldn't be able to provide the services that we do if it wasn't for the large number of people who dedicate their time to our programs.</p>
-                    <a href="help.html"><p id="linkcolor">Volunteer</p></a>
+                    <h2 class="size">How to Help</h2>
+                    <img src="volunteer.jpg" alt="Volunteering t-shirt">
+                    <p class="sizesmall">Make a difference in the lives of today's youth. We wouldn't be able to provide the services that we do if it wasn't for the large number of people who dedicate their time to our programs.</p>
+                    <a href="help.html"><p class="linkcolor">Volunteer</p></a>
                 </div>
            </div>
       </div>      
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: box5
@@ -239,13 +244,13 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
-      <a name="bottom" id="bottom"></a> 
+-->
+      <a id="bottom"></a> 
       <div id="box5">
       
       </div>
 
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: box2
@@ -259,27 +264,31 @@
     *   History: 5/2/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
-    <div id="box2"> <!--white-->
+    <div class="box2"> <!--white-->
         <div style="text-align: center;">
             <table>
-                <td>
-                    Lorem ipsum dolor sit amet, nam ut doming verear euripidis. Ullum causae omnium no nam, at alia posidonium has, nec altera audiam ad. Nam cibo persecuti ea, mel apeirian reprimique at. Dicunt eligendi dissentiet nec at, ad sea suas nullam fuisset, ullum probatus theophrastus ex mea. Ut ius homero iriure ornatus.
+                <tbody>
+                    <tr>
+                        <td>
+                            Lorem ipsum dolor sit amet, nam ut doming verear euripidis. Ullum causae omnium no nam, at alia posidonium has, nec altera audiam ad. Nam cibo persecuti ea, mel apeirian reprimique at. Dicunt eligendi dissentiet nec at, ad sea suas nullam fuisset, ullum probatus theophrastus ex mea. Ut ius homero iriure ornatus.
 
-                    Epicurei vulputate temporibus no pri, nullam tamquam maluisset ad vel, exerci nostro ex ius. Est eu aliquam conceptam, ea tempor facilisi invenire mei, vis ad nisl tollit. Persius ancillae et pri. An ridens argumentum vix, vivendo facilisi nec in.
-                </td>
-                <td>
-                    <a href="https://www.facebook.com/BGCMass/" target="_blank">
-                        <img  style="width: 100%; max-width: 900px; height: auto;" src="facebook.png" alt="Facebook Logo"/>
-                    </a>                    
-                </td>
+                            Epicurei vulputate temporibus no pri, nullam tamquam maluisset ad vel, exerci nostro ex ius. Est eu aliquam conceptam, ea tempor facilisi invenire mei, vis ad nisl tollit. Persius ancillae et pri. An ridens argumentum vix, vivendo facilisi nec in.
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/BGCMass/" target="_blank">
+                                <img  style="width: 100%; max-width: 900px; height: auto;" src="facebook.png" alt="Facebook Logo"/>
+                            </a>                    
+                        </td>
+                    </tr>
+                </tbody>
             </table>    
             <h3> Contact us: </h3>
             <p> (413) 610-0194 </p>       
         </div>
     </div>
-<!—
+<!--
     ******************************************************************************
     *
     *   Module: topFunction()
@@ -293,7 +302,7 @@
     *   History: 5/28/2019 Creation
     *
     ******************************************************************************
-->
+-->
 
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
    </body>
