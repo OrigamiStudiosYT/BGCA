@@ -198,6 +198,10 @@ a
     display: block;
   }
 }
+@media screen and (max-width: 1000px) {
+   .dot  {display: none;}
+ }
+
 
 /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 1000px) 
