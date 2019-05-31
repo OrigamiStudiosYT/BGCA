@@ -79,12 +79,12 @@ th
    right: 10px;
 }
 
-.dot:hover
+dot:hover
 {
-   background-color: #004B87;
+   background-color: #FF8200;
 }
 
-.top-active, .middle-active, .bottom-active
+.activeDot
 {
    background-color: #FF8200;
 }

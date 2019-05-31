@@ -34,11 +34,26 @@ function myFunction()
     }
 } 
 
-$(window).on('resize scroll', function() 
+$window.onscroll = function()
 {
-    if ($('#top'.visible()))
+    if ($('#top').visible())
     {
-        
+        $('#top').addClass('activeDot');
+        $('#middle').removeClass('activeDot');
+        $('#bottom').removeClass('activeDot');
+    }
+    else if ($('#middle').visible())
+    {
+        $('#middle').addClass('activeDot');
+        $('#top').removeClass('activeDot');
+        $('#bottom').removeClass('activeDot');
+    }
+    else if ($('#bottom').visible())
+    {
+        $('#bottom').addClass('activeDot');
+        $('#middle').removeClass('activeDot');
+        $('#top').removeClass('activeDot');
     }
     
 }
+)
