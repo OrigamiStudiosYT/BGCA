@@ -97,7 +97,7 @@ a
 .box3_image{
    height: 25vh;
    width: 100%;
-   background-image: url(b.jpg);
+   background-image: url(img/b.jpg);
    background-size: cover;
    display: table;
    background-attachment: fixed;
@@ -307,7 +307,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(a.jpg);
+   background-image: url(img/a.jpg);
    background-size: cover;
    display: table;
    background-attachment: fixed;
@@ -343,7 +343,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(c.jpg);
+   background-image: url(img/c.jpg);
    background-size: cover;
    display: table;
    background-attachment: fixed;
@@ -385,7 +385,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(f.gif);
+   background-image: url(img/f.gif);
    background-size: cover;
 }
 
@@ -393,7 +393,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(g.png);
+   background-image: url(img/g.png);
    background-size: cover;
 }
 
@@ -401,7 +401,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(h.gif);
+   background-image: url(img/h.gif);
    background-size: cover;
 }
 
@@ -409,7 +409,7 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(i2.png);
+   background-image: url(img/i2.png);
    background-size: cover;
 }
 
@@ -417,6 +417,6 @@ a
 {
    height: 50vh;
    width: 100%;
-   background-image: url(j.jpg);
+   background-image: url(img/j.jpg);
    background-size: cover;
 }
