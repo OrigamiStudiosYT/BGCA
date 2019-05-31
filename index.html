@@ -58,6 +58,7 @@
 ->
 
    <body>
+    <div id="maindiv">
    
 <!—
     ******************************************************************************
@@ -75,7 +76,6 @@
     ******************************************************************************
 ->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    
     <script src="jquery.visible.js"></script><!-- Obtained from https://github.com/customd/jquery-visible/ -->
     <script src="java.js"></script>
     <div class="navbar" id="myTopnav">
@@ -114,9 +114,9 @@
     ******************************************************************************
 ->
 
-      <a href="#bottom"><div id="bottom" class="dot" style="top: 53%;"></div></a>
-      <a href="#middle"><div id="middle" class="dot" style="top: 50%;"></div></a>
-      <a href="#top"><div id="top" class="dot activeDot" style="top: 47%;"></div></a>
+      <a href="#bottom"><div id="bottomButton" class="dot" style="top: 53%;"></div></a>
+      <a href="#middle"><div id="middleButton" class="dot" style="top: 50%;"></div></a>
+      <a href="#top"><div id="topButton" class="dot activeDot" style="top: 47%;"></div></a>
  
 <!—
     ******************************************************************************
@@ -133,9 +133,8 @@
     *
     ******************************************************************************
 ->
-      <a name="top" id="top"></a> 
       <div id="box1">
-      <h1></br></br>GREAT FUTURES START HERE.</h1>
+      <h1 name="top" id="top"></br></br>GREAT FUTURES START HERE.</h1>
       </div>
       
 <!—
@@ -181,9 +180,8 @@
     *
     ******************************************************************************
 ->      
-      <a name="middle" id="middle"></a> 
       <div class="box3 box3_image text-center mx-auto d-block">
-         <a href="donate.html">
+         <a href="donate.html" name="middle" id="middle">
          <div class="donate"><b>Donate</b></div>      
           </a>         
       </div>
@@ -240,7 +238,6 @@
     *
     ******************************************************************************
 ->
-      <a name="bottom" id="bottom"></a> 
       <div id="box5">
       
       </div>
@@ -263,7 +260,7 @@
 
     <div id="box2"> <!--white-->
         <div style="text-align: center;">
-            <table>
+            <table name="bottom" id="bottom">
                 <td>
                     Lorem ipsum dolor sit amet, nam ut doming verear euripidis. Ullum causae omnium no nam, at alia posidonium has, nec altera audiam ad. Nam cibo persecuti ea, mel apeirian reprimique at. Dicunt eligendi dissentiet nec at, ad sea suas nullam fuisset, ullum probatus theophrastus ex mea. Ut ius homero iriure ornatus.
 
@@ -294,5 +291,6 @@
 ->
 
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
    </body>
 </html>
