@@ -45,6 +45,11 @@ th
    font-size: 30px;
 }
 
+a
+{
+    text-decoration: none;
+}
+
 /* ********************************    CLASS ITEMS   *********************************** */
 
 .right
@@ -79,7 +84,7 @@ th
    right: 10px;
 }
 
-dot:hover
+.dot:hover
 {
    background-color: #FF8200;
 }
@@ -119,11 +124,6 @@ dot:hover
    font-family: Arial, Helvetica, sans-serif;
 }
 
-a
-{
-    text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -146,6 +146,41 @@ a
   max-width: 100%;
   height: auto;
 }
+
+.size
+{
+    font-size: 3vw;
+}
+
+.sizesmall
+{
+    font-size: 1vw;
+}
+
+.box2
+{
+   height: 50vh;
+   width: 100%;
+   background-color: white;
+   background-size: cover;
+   display: table;
+   background-attachment: fixed;
+   font-family: Helvetica Neue,sans-serif;
+}
+
+.linkcolor
+{
+    background-color: #004B87;
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+.linkcolor:hover
+{
+   background-color: #0098d6;
+   color: #ffffff;
+}
+
 /* ********************************    NAVBAR CLASSES   *********************************** */
 
 .navbar 
@@ -267,15 +302,6 @@ a
 }
 
 /* ********************************    ID ITEMS   *********************************** */
-.size
-{
-    font-size: 3vw;
-}
-
-.sizesmall
-{
-    font-size: 1vw;
-}
 
 #box1
 {
@@ -291,16 +317,6 @@ a
    font-family: Helvetica Neue,sans-serif;
 }
 
-.box2
-{
-   height: 50vh;
-   width: 100%;
-   background-color: white;
-   background-size: cover;
-   display: table;
-   background-attachment: fixed;
-   font-family: Helvetica Neue,sans-serif;
-}
 
 #box4
 {
@@ -322,18 +338,6 @@ a
    text-align: center;
 }
 
-.linkcolor
-{
-    background-color: #004B87;
-    color: #FFFFFF;
-    padding: 5%;
-}
-
-.linkcolor:hover
-{
-   background-color: #0098d6;
-   color: #ffffff;
-}
 
 #box5
 {
