@@ -200,7 +200,7 @@ a
 }
 
 /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 1000px) 
 {
   .navbar.responsive {position: relative;}
   .navbar.responsive a.icon 
@@ -217,6 +217,7 @@ a
     text-align: left;
   }
 }   
+
 .navbar .icon 
 {
   display: none;

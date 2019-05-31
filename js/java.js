@@ -80,7 +80,7 @@ function myFunction()
     } 
     else 
     {
-        x.className = "topnav";
+        x.className = "navbar";
     }
 }
 
