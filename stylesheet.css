@@ -127,7 +127,10 @@ a:visited
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
-
+.floatright
+{
+   float: right;
+}
 * {
   box-sizing: border-box;
 }
