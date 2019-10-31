@@ -61,7 +61,17 @@ a:visited
    float: right; 
    margin-left: 20px; 
    margin-right: 10%;
+   text-align: right;
 }
+
+.left
+{
+   float: left; 
+   margin-left: 10%; 
+   margin-right: 20px;
+   text-align: left;
+}
+
 
 .tab
 {
@@ -397,20 +407,11 @@ a:visited
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-
-#boxdonate
-{
-   height: 50vh;
-   width: 100%;
-   background-image: url(img/f.gif);
-   background-size: cover;
-}
-
 #boxyoty
 {
    height: 50vh;
    width: 100%;
-   background-image: url(img/g.png);
+   background-image: url(yoty_files/Classof2019.jpg);
    background-size: cover;
 }
 
