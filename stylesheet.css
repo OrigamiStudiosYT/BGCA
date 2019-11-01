@@ -54,7 +54,7 @@ a:visited
    color:white
 }
 
-/* ********************************    CLASS ITEMS   *********************************** */
+/* ********************************  CLASS ITEMS   *********************************** */
 
 .right
 {
@@ -76,6 +76,13 @@ a:visited
    min-width: 230px;
    height: auto;
    border: 10.7%
+}
+
+.listtext                              /*for lists*/
+{
+   margin-right: 80px;
+   margin-left: 80px;
+   font-family: Helvetica Neue,sans-serif;
 }
 
 .dot
