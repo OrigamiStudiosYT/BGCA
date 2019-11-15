@@ -59,8 +59,17 @@ a:visited
 .right
 {
    float: right; 
+   text-align: right;
    margin-left: 20px; 
    margin-right: 10%;
+}
+
+.left
+{
+    float: left; 
+   text-align: left;
+   margin-right: 20px; 
+   margin-left: 3%;
 }
 
 .tab
@@ -84,7 +93,10 @@ a:visited
    margin-left: 80px;
    font-family: Helvetica Neue,sans-serif;
 }
-
+.round
+{
+   border-radius: 8px;
+}
 .dot
 {
    height: 15px;
