@@ -177,7 +177,7 @@ a:visited
 
 .sizesmall
 {
-    font-size: 1vw;
+    font-size: 18px;
 }
 
 .box2
@@ -193,10 +193,10 @@ a:visited
 
 .linkcolor
 {
-    background-color: #004B87;
-    color: #FFFFFF;
-    padding: 5%;
-    border-radius: 8px;
+   background-color: #004B87;
+   color: #FFFFFF;
+   padding: 5%;
+   border-radius: 8px;
    border: #004B87;
    text-align: center;
 }
