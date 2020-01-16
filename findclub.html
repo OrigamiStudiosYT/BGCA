@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+   ******************************************************************************
+   *
+   *   Program: findclub.html
+   *
+   *   Description: Helps you find your local club
+   *
+   *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+   *
+   *   Date: 1/14/2020
+   *
+   *   History: 1/14/2020 Creation
+   *
+   ******************************************************************************
+-->
+<html lang="en" style="scroll-behavior: smooth;">
+<!--
+   ******************************************************************************
+   *
+   *   Module: head
+   *
+   *   Description: Links the stylesheet, sets the page title, and defines meta data.
+   *
+   *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+   *
+   *   Date: 1/14/2020
+   *
+   *   History: 1/14/2020 Creation
+   *
+   ******************************************************************************
+-->
+   <head>
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+      <title>Donate Boys & Girls Club Massachusetts</title>
+      <script src="js/java.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="logo_Hands.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+<!--
+******************************************************************************
+*
+*   Module: body
+*
+*   Description: The main part of the website.
+*
+*   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+*
+*   Date: 1/14/2020
+*
+*  History: 1/14/2020 Creation
+*
+******************************************************************************
+-->
+   <body>
+      
+      <!--
+      ******************************************************************************
+      *
+      *   Module: navbar
+      *
+      *   Description: Lists the names of the pages and links to them.
+      *
+      *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+      *
+      *   Date: 1/14/2020
+      *
+      *   History: 1/14/2020 Creation
+      *
+      ******************************************************************************
+      -->
+      <div class="navbar" id="myTopnav">
+
+            <a href="help.html">How To Help</a>
+               
+            <a href="impact.html">Our Impact</a>
+                        
+            <a href="about.html">About Us</a>
+               
+            <a href="yoty.html">Youth Of The Year</a>
+               
+            <a href="index.html">Home</a>
+                  
+            <img src="img/logo.png" class="responsive" alt="Logo Boys and Girls Club">
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+               </a>
+      </div>
+      <!--
+      ******************************************************************************
+      *
+      *   Module: Div
+      *
+      *   Description: Makes the text scale within the box donate
+      *
+      *   Author:  Grace Silverstein, Andrew Lortie, Jeremy Patrick
+      *
+      *   Date: 1/14/2020
+      *
+      *   History: 1/14/2020 Creation
+      *
+      ******************************************************************************
+      -->
+      <div id="boxdonate"></div>
+         <h2>Find Your Local Club </h2>
+         <p>
+		    Arlington :  https://www.abgclub.org/<br><br>
+			Billerica :  https://www.billericabgc.com/<br><br>
+			Blackstone Valley :  https://www.bvbgc.com/<br><br>
+			Boston : https://www.bgcb.org/   <br>
+			&emsp; Yawkey Club of Roxbury:  https://www.bgcb.org/find-your-club/yawkey-club-of-roxbury<br>
+			&emsp; Sumner Club:  https://www.bgcb.org/find-your-club/sumner-club<br>
+			&emsp; Orchard Gardens Club:  https://www.bgcb.org/find-your-club/orchard-gardens-club<br>
+			&emsp; Mattapan Teen Center:  https://www.bgcb.org/find-your-club/mattapan-teen-center<br>
+			&emsp; Jordan Club : https://www.bgcb.org/find-your-club/jordan-club<br>
+			&emsp; Hennigan Club  :  https://www.bgcb.org/find-your-club/hennigan-club<br>
+			&emsp; Franklin Hill Club  :  https://www.bgcb.org/find-your-club/franklin-hill-club<br>
+			&emsp; Edgerley Family South Boston Club :  https://www.bgcb.org/find-your-club/edgerley-family-south-boston-club<br>
+			&emsp; Condon Club:  https://www.bgcb.org/find-your-club/condon-club<br>
+			&emsp; Charlestown Club :  https://www.bgcb.org/find-your-club/charlestown-club<br>
+			&emsp; Berkshire Partners Blue Hill Club  :  https://www.bgcb.org/find-your-club/blue-hill-club <br><br>
+			Brockton :  https://www.bgcmetrosouth.org/<br><br>
+			Cape Cod : https://www.boysgirlsclubcapecod.org/<br><br>
+			Charlestown :  https://www.bgcb.org/find-your-club/charlestown-club<br><br>
+			Chelsea :  https://www.bgcb.org/find-your-club/jordan-club<br><br>
+			Chicopee :  https://bgcchicopee.org/<br><br>
+			Dorchester : (Berkshire Partners Blue Hill Club): https://www.bgcb.org/find-your-club/blue-hill-club<br><br>
+			Dorchester Center :   https://www.bgcdorchester.org/<br><br>
+			Dudley :  https://www.bgcwebsterdudley.org/<br><br>
+			East Boston : http://www.salesianclub.com/<br><br>
+			Edgartown :  https://mvbgclub.org/<br><br>
+			Fall River :  http://www.fallriverbgc.org/<br><br>
+			Framingham :  http://www.bgcmetrowest.org/<br><br>
+			Hanscom AFB : https://www.hanscomfss.com/youth-programs<br><br>
+			Haverhill :  https://www.haverhillbgc.org/<br><br>
+			Holyoke :  https://hbgc.org/index.php/en/<br><br>
+			Hudson :  http://www.bgcmetrowest.org/locations/hudson-argeo-r-cellucci-jr-clubhouse/<br><br>
+			Indian Orchard :  https://www.sbgc.org/  (Springfield Ma)<br><br>
+			Jamaica Plain :  https://www.bgcb.org/find-your-club/hennigan-club<br><br>
+			Lawrence :  http://www.lawrencebgc.com/<br><br>
+			Leominster :  http://bgcfl.org/  <br><br>
+			Lowell :  https://lbgc.org/<br><br>
+			Ludlow :  http://ludlowbgc.org/<br><br>
+			Lynn :  https://bgcl.org/<br><br>
+			Marlborough :  http://www.bgcmetrowest.org/locations/marlborough-clubhouse/  <br><br>
+			Marshfield :  https://marshfieldbgc.com/<br><br>
+			Mashpee :  https://www.boysgirlsclubcapecod.org/<br><br>
+			Mattapan : https://www.bgcb.org/find-your-club/mattapan-teen-center<br><br>
+			Maynard :  http://www.bgcav.org/<br><br>
+			Nantucket :  https://nantucketboysandgirlsclub.org/<br><br>
+			New Bedford :  http://www.bgcnewbedford.org/<br><br>
+			Newton : https://www.newtonbgc.com/<br><br>
+			Onset :  http://www.bgcnewbedford.org/wareham-unit1  (Wareham)<br><br>
+			Pittsfield : https://www.bgcberkshires.org/default.aspx<br><br>
+			Plymouth : https://www.bgcplymouth.org/<br><br>
+			Roslindale :  https://www.bgcb.org/find-your-club/sumner-club  <br><br>
+			Roxbury : Yawkey https://www.bgcb.org/find-your-club/yawkey-club-of-roxbury  or<br><br>
+			Orchard Gardens https://www.bgcb.org/find-your-club/orchard-gardens-club<br><br>
+			Salem : http://www.bgcgs.org/<br><br>
+			Salisbury :  https://www.bgclmv.org/  (Lower Merrimack Valley)<br><br>
+			South Boston :  https://www.bgcb.org/find-your-club/edgerley-family-south-boston-club<br><br>
+			Springfield : https://www.sbgc.org/<br><br>
+			Stoneham :  https://bgcstoneham.org/<br><br>
+			Taunton : https://www.bgcmetrosouth.org/taunton-clubhouse<br><br>
+			Wakefield : https://bgcstoneham.org/wakefield-clubhouse/<br><br>
+			Waltham :  https://walthambgc.org/<br><br>
+			Watertown :  http://www.watertownbgc.org/<br><br>
+			West Springfield :  http://wsbgclub.org/<br><br>
+			Westfield :  https://www.bgcwestfield.org/<br><br>
+			Woburn :  https://bgcwoburn.org/<br><br>
+			Worcester :  https://www.bgcworcester.org/<br><br>
+		 </p>
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	  
+   </body>
+</html>
