@@ -5,6 +5,14 @@ body
    padding: 0;
 }  
 
+h1
+{
+   color: #192E1E;
+   text-align: center;
+   font-size:55px;
+   font-family: Impact, Charcoal, sans-serif;
+}
+
 h2
 {
    color: #0098d6;
@@ -51,7 +59,7 @@ a
 }
 a:visited
 {
-   color:white
+   color: purple
 }
 
 /* ********************************  CLASS ITEMS   *********************************** */
@@ -414,19 +422,21 @@ a:visited
 }
 
 
-#boxdonate
+#boxfind
 {
    height: 50vh;
    width: 100%;
-   background-image: url(img/f.gif);
+   background-image: url(img/g.png);
    background-size: cover;
+   display: table;
+   background-attachment: fixed;
 }
 
 #boxyoty
 {
    height: 50vh;
    width: 100%;
-   background-image: url(img/g.png);
+   background-image: url(img/Classof2019.jpg);
    background-size: cover;
 }
 
@@ -434,8 +444,10 @@ a:visited
 {
    height: 50vh;
    width: 100%;
-   background-image: url(img/h.png);
+   background-image: url(img/h.jpg);
    background-size: cover;
+   display: table;
+   background-attachment: fixed;
 }
 
 #boximpact
@@ -444,6 +456,8 @@ a:visited
    width: 100%;
    background-image: url(img/i.jpg);
    background-size: cover;
+   display: table;
+   background-attachment: fixed;
 }
 
 #boxhelp
@@ -452,4 +466,16 @@ a:visited
    width: 100%;
    background-image: url(img/j.jpg);
    background-size: cover;
+   display: table;
+   background-attachment: fixed;
+}
+
+#boxsh
+{
+   height: 50vh;
+   width: 100%;
+   background-image: url(img/statehouse.jpg);
+   background-size: cover;
+   display: table;
+   background-attachment: fixed;
 }
