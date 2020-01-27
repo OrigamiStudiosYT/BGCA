@@ -433,6 +433,7 @@ instead of horizontally) */
    background-size: cover;
    display: table;
    background-attachment: fixed;
+   
 }
 
 #boxyoty
@@ -440,7 +441,8 @@ instead of horizontally) */
    height: 50vh;
    width: 100%;
    background-image: url(img/Classof2019.jpg);
-   background-size: cover;
+   background-size: 100% 100%;
+   
 }
 
 #boxau
