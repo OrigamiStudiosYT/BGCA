@@ -406,6 +406,16 @@ instead of horizontally) */
    font-family: Helvetica Neue,sans-serif;
 }
 
+#box7
+{   
+   width: 100%;
+   background-image: url();
+   background-size: cover;
+   display: table;
+   font-family: Helvetica Neue,sans-serif;
+   
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -441,11 +451,13 @@ instead of horizontally) */
 
 #boxyoty
 {
-   height: 50vh;
+   height: 20vw;
    width: 100%;
+   min-height: 200px;
    background-image: url(img/Classof2019.jpg);
-   background-size: 100% 100%;
-   
+   background-size: cover;
+   display: table;
+
 }
 
 #boxau
