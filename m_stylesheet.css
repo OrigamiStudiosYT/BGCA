@@ -5,9 +5,15 @@ p
 	margin: 10px;
 }
 
+p.center
+{
+	text-align: center;
+}
+
 p.small
 {
 	font-size: 12px;
+	text-align: center;
 }
 
 .responsive
@@ -51,6 +57,12 @@ h2
 	text-align: center;
 }
 
+h3
+{
+	font-size: 20px;
+	color: black;
+}
+
 .navbox
 {
 	padding: 15px;
@@ -86,3 +98,24 @@ table
 {
 	width: 100%;
 }
+
+.linkcolor {
+    background-color: #004B87;
+    color: #FFFFFF;
+    padding: 5%;
+    border-radius: 8px;
+    border: #004B87;
+    text-align: center;
+	margin-right: 5%;
+	margin-left:5%;
+}
+
+.captions {
+	font-size: 15px
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-right: 5%;
+	
