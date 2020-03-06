@@ -1,129 +1,121 @@
 
-
-mnav
-{
-	
-}
-
-footer
-{
-	background-color: #CCCCCC;
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	height: 8%;
-}
-
-.active
-{
-	
-}
-
 p
 {
-	font-size: 50px
+	font-size: 15px;
+	margin: 10px;
+}
+
+p.center
+{
+	text-align: center;
+}
+
+p.small
+{
+	font-size: 12px;
+	text-align: center;
 }
 
 .responsive
 {
-   width: 5%;
-   min-width: 230px;
-   height: auto;
-   border: 10.7%
+    width: 5%;
+    min-width: 230px;
+    height: auto;
+    border: 10.7%
 }
 
-body {
-  font-family: Arial;
-  margin: 0;
+body 
+{
+    font-family: Arial;
+    margin: 5px;
 }
 
-* {
-  box-sizing: border-box;
+.container 
+{
+	position: relative;
+    text-align: center;
+    color: white
 }
 
-img {
-  vertical-align: middle;
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
+h1
+{
+	font-size: 30px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+h2
+{
+	font-size: 28px;
+	color: #0081c6;
+	text-align: center;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
+h3
+{
+	font-size: 20px;
+	color: black;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+.navbox
+{
+	padding: 15px;
+	width: 70%;
+	background-color: #0081c6;
+	color: white;
+	margin: auto;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: none;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+a
+{
+	text-decoration: none;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.impactimg
+{
+    width: 100%;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.yotyimg
+{
+	width: 40%;
+	height: auto;
+	border-radius: 10px;
 }
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
+table
+{
+	width: 100%;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.linkcolor {
+    background-color: #004B87;
+    color: #FFFFFF;
+    padding: 5%;
+    border-radius: 8px;
+    border: #004B87;
+    text-align: center;
+	margin-right: 5%;
+	margin-left:5%;
 }
 
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
+.captions {
+	font-size: 15px
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-right: 5%;
+	
