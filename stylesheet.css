@@ -196,7 +196,7 @@ a:visited
 
 .sizesmall
 {
-    font-size: 18px;
+    font-size: 1.5vw;
     margin-right: 0;
     margin-left: 0;
 }
@@ -383,7 +383,7 @@ instead of horizontally) */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 45vw;
+  height: 48vw;
   display: flex;
   justify-content: center;
   align-items: center;
