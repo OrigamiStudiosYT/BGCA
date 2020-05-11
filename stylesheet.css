@@ -33,7 +33,7 @@ p
 {
    margin-right: 80px;
    margin-left: 80px;
-   font-size: 20px;
+   font-size: 2vw;
    font-family: Helvetica Neue,sans-serif;
 }
 
@@ -55,7 +55,7 @@ th
 
 a
 {
-    text-decoration: none;
+   text-decoration: none;
 }
 a:visited
 {
