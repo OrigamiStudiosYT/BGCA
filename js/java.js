@@ -14,6 +14,30 @@
 
 /* ******************************************************************************
     *
+    *   Function: copyRight
+    *
+    *   Description: Makes a copyright mark and tells the time since the website
+    *                was last updated
+    *
+    *   Author:   Andrew Lortie
+    *
+    *   Date: 6/1/2020                                                          
+    *                                                                            
+    *   History: 6/1/2020 Creation  
+    *
+    ****************************************************************************** 
+*/
+
+function copyRight() 
+{
+    var lastModDate = document.lastModified;
+    var lastModDate = lastModDate.substring(0, 10);
+
+    // @ts-ignore
+    displayCopyRight.innerHTML = "<span style='font-size:80%; color: black;'> Contact at <br> <a href='tel:1-413-610-0194'>(413) 610-0194</a> <br> <a href='mailto:jaldworth@bgcb.org'>jaldworth@bgcb.org</a> <br> P.O. Box 815, Ludlow, MA 01056 <br/> This website was last modified " + lastModDate + ".</span>";
+}
+/* ******************************************************************************
+    *
     *   Module: scrollFunction
     *
     *   Description: When the user scrolls down 20px from the top of the document, show the button
