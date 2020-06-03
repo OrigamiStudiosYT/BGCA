@@ -34,7 +34,7 @@ function copyRight()
     var lastModDate = lastModDate.substring(0, 10);
 
     // @ts-ignore
-    displayCopyRight.innerHTML = "<span style='font-size:80%; color: black;'> Contact at <br> <a href='tel:1-413-610-0194'>(413) 610-0194</a> <br> <a href='mailto:jaldworth@bgcb.org'>jaldworth@bgcb.org</a> <br> P.O. Box 815, Ludlow, MA 01056 <br/> This website was last modified " + lastModDate + ".</span>";
+    displayCopyRight.innerHTML = "<span style='font-size:80%; color: black;'> Contact Jenn Aldworth at <br> <a href='tel:1-413-610-0194'>(413) 610-0194</a> <br> <a href='mailto:jaldworth@bgcb.org'>jaldworth@bgcb.org</a> <br> P.O. Box 815, Ludlow, MA 01056 <br/> This website was last modified " + lastModDate + ".</span>";
 }
 /* ******************************************************************************
     *
