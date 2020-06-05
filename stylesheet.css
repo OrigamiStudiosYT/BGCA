@@ -359,11 +359,18 @@ instead of horizontally) */
    display: block;
 }
 
+@media screen and (max-width: 700px) 
+{
+   #imghide
+   {
+      display: none;
+   }
+}
 /* ********************************    ID ITEMS   *********************************** */
 
 #box1
 {
-   height: 50vh;
+   height: auto;
    width: 100%;
    background-image: url(img/a.jpg);
    background-size: cover;
