@@ -370,7 +370,7 @@ instead of horizontally) */
 
 #box1
 {
-   height: auto;
+   height: 50vh;
    width: 100%;
    background-image: url(img/a.jpg);
    background-size: cover;
