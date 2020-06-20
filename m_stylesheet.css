@@ -104,7 +104,8 @@ table
 	width: 100%;
 }
 
-.linkcolor {
+.linkcolor 
+{
     background-color: #004B87;
     color: #FFFFFF;
     padding: 5%;
@@ -115,12 +116,13 @@ table
 	margin-left:5%;
 }
 
-.captions {
-	font-size: 15px
+.captions 
+{
+	font-size: 15px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	margin-right: 5%;
-	
+}
