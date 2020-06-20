@@ -127,3 +127,23 @@ function dotHandler()
 
         }
     }
+/* ******************************************************************************
+    *
+    *   Module: Mobile switching 
+    *
+    *   Description: When the user is on mobile this switches them to the mobile verison
+    *
+    *   Author:  Andrew Lortie
+    *
+    *   Date: 6/20/2020
+    *
+    *   History: 6/20/2020 Creation
+    *
+    ****************************************************************************** */
+   function screenwidth()
+   {
+        if (screen.width <= 699) 
+        {
+            document.location = "m_index.html";
+        }
+    }
