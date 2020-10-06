@@ -115,7 +115,8 @@ table
 	margin-left:5%;
 }
 
-.captions {
+.captions 
+{
 	font-size: 15px;
     display: block;
     margin-block-start: 1em;
@@ -123,3 +124,4 @@ table
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	margin-right: 5%;
+}
