@@ -62,6 +62,14 @@ a:visited
    color: purple
 }
 
+ul
+{
+   margin-right: 80px;
+   margin-left: 80px;
+   font-size: 1.2vw;
+   font-family: Helvetica Neue,sans-serif;
+}
+
 /* ********************************  CLASS ITEMS   *********************************** */
 
 .resizeandrea
