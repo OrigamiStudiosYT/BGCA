@@ -75,7 +75,15 @@ function myFunction()
         if (screen.width <= 699) 
         {
             var url= window.location.pathname;
-            document.location = "m_"+url.substring(url.lastIndexOf("/")+1);
+            if (typeof url !== 'undefined' && url)
+            {
+                document.location = "m_index.html";
+            }
+            else
+            {
+                document.location = "m_"+url.substring(url.lastIndexOf("/")+1);
+            }
+            
         }
     }
     function screenwidthdt()
