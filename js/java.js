@@ -74,6 +74,15 @@ function myFunction()
    {
         if (screen.width <= 699) 
         {
-            document.location = "m_index.html";
+            var url= window.location.pathname;
+            document.location = "m_"+url.substring(url.lastIndexOf("/")+1);
         }
     }
+    function screenwidthdt()
+    {
+         if (screen.width >= 699) 
+         {
+            var url= window.location.pathname;
+            document.location = url.substring(url.lastIndexOf("/m_")+3);
+         }
+     }
