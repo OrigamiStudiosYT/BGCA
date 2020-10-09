@@ -70,27 +70,27 @@ function myFunction()
     *   History: 6/20/2020 Creation
     *
     ****************************************************************************** */
-   function screenwidth()
-   {
-        if (screen.width <= 699) 
-        {
-            var url= window.location.pathname;
-            if (typeof url !== 'undefined' && url)
-            {
-                document.location = "m_index.html";
-            }
-            else
-            {
-                document.location = "m_"+url.substring(url.lastIndexOf("/")+1);
-            }
-            
-        }
-    }
-    function screenwidthdt()
+function screenwidth()
+{
+    if (screen.width <= 699) 
     {
-         if (screen.width >= 699) 
-         {
-            var url= window.location.pathname;
-            document.location = url.substring(url.lastIndexOf("/m_")+3);
-         }
-     }
+        var url= window.location.pathname;
+        if (typeof url !== 'undefined' && url)
+        {
+            document.location = "m_index.html";
+        }
+        else
+        {
+            document.location = "m_"+url.substring(url.lastIndexOf("/")+1);
+        }
+        
+    }
+}
+function screenwidthdt()
+{
+    if (screen.width >= 699) 
+    {
+    var url= window.location.pathname;
+    document.location = url.substring(url.lastIndexOf("/m_")+3);
+    }
+}
