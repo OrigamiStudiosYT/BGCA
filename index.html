@@ -73,9 +73,8 @@
     ******************************************************************************
     -->
 
-<body onload="screenwidth()">
+<body onload="screenwidth();">
     <div id="maindiv">
-
         <!--
             ******************************************************************************
             *
@@ -93,7 +92,33 @@
             -->
 
         <div class="navbar" id="myTopnav">
-
+            <div id="alertApp" class="alertClosed alertstyle" style="display: none;">
+                <h3 class="alertheader">
+                    Random information
+                    &nbsp;<span>[+]</span>
+                </h3>
+                <div id="alertDesc" class="expand" style="height: 0;">
+                    <p class="colorwhite">This is some random information, look at me go</p>
+                </div>
+                <script type="text/javascript">
+                    $('#alertApp').click(function () {
+                        var alertDesc = $('#alertDesc');
+                        var indicator = $('#alertApp span:first');
+                        if (indicator.html() == "[-]") {
+                            indicator.html("[&plus;]");
+                            var scrollHeight = alertDesc.prop("scrollHeight");
+                            alertDesc.css({
+                                "height": scrollHeight
+                            }).addClass("expand");
+                        } else {
+                            indicator.html("[-]");
+                            alertDesc.css({
+                                "height": "42px"
+                            }).removeClass("expand");
+                        }
+                    });
+                </script>
+            </div>
 
             <a href="impact.html">Our Impact</a>
 
@@ -155,7 +180,7 @@
 
 
         <div id="box1">
-            <h2 name="top" id="top" style="margin-top: 90px; color: white;"><br /><br />
+            <h2 name="top" id="top" style="margin-top: 200px; color: white;"><br /><br />
                 GREAT FUTURES START <span style="color: #0081c6;">HERE.</span></h2>
         </div>
 
@@ -323,7 +348,7 @@
 
         <div class="box2">
             <!--white-->
-            <div style="text-align: center;">
+            <div class="centerall">
                 <p><br><br><br>The Massachusetts Alliance of Boys &amp; Girls Clubs is
                     a group of 40 independent Boys &amp; Girls Club corporations that
                     operate throughout the state of Massachusetts. The Alliance was
@@ -337,14 +362,19 @@
                     <br> P.O. Box 815, Ludlow, MA 01056
                 </div>
                 <div>
+                    <a class="twitter-timeline" width="400" height="500"
+                        href="https://twitter.com/MassAllianceBGC?ref_src=twsrc%5Etfw">Tweets by
+                        MassAllianceBGC
+                    </a>
                     <iframe src="
                         https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.
                         facebook.com%2FBGCMass&tabs=timeline&width=400&height=500&small_
                         header=false&adapt_container_width=true&hide_cover=false&show_fa
                         cepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no"
-                        frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe><br />
-                    <a class="twitter-timeline" width="400" height="500" href="https://twitter.com/MassAllianceBGC?ref_src=twsrc%5Etfw">Tweets by
-                        MassAllianceBGC</a>
+                        frameborder="0" allowTransparency="true" allow="encrypted-media">
+                    </iframe>
+                    <br />
+                    
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
 

@@ -73,6 +73,38 @@ ul
 
 /* ********************************  CLASS ITEMS   *********************************** */
 
+.centerall
+{
+   text-align: center;
+}
+
+.alertClosed
+{
+   background-color: #84BD00;
+}
+
+.expand
+{
+   display:none;
+}
+
+.alertstyle
+{
+   margin-top: -30px; 
+}
+
+.colorwhite
+{
+   color: white;
+}
+
+.alertheader
+{
+   color: white;
+   text-align: center; 
+   padding: 1%;
+}
+
 .resizeandrea
 {
    width: 12vw;
