@@ -38,8 +38,8 @@ body
 .container 
 {
 	position: relative;
-   text-align: center;
-   color: white
+	text-align: center;
+	color: white
 }
 
 .centered 
@@ -66,6 +66,11 @@ h3
 {
 	font-size: 20px;
 	color: black;
+}
+
+.centerall
+{
+	text-align: center;
 }
 
 .navbox
