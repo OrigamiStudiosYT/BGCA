@@ -68,6 +68,11 @@ h3
 	color: black;
 }
 
+h3.blue
+{
+	color: #0081c6;
+}
+
 .centerall
 {
 	text-align: center;
