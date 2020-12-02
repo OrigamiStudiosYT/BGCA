@@ -7,8 +7,6 @@
 2. Open the folder "img".
 3. Replace the old image file with the new image file.
   - Make sure the file name remains exactly the same, including capitalization. 
-## Embeds
-
 ## Links
 1. Open the file corresponding to the last part of the web address, i.e. "index.html".
 2. Find the link that you wish to change.
