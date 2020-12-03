@@ -1,0 +1,142 @@
+/* ********************************    GENERAL ITEMS   *********************************** */
+
+body 
+{
+    font-family: Arial;
+    margin: 5px;
+}
+
+p
+{
+	font-size: 15px;
+	margin: 10px;
+}
+
+p.center
+{
+	text-align: center;
+}
+
+p.small
+{
+	font-size: 5vw;
+	text-align: center;
+}
+
+p.blue
+{
+   color: #0081c6;
+}
+
+h1
+{
+	font-size: 1.5em;
+}
+
+h2
+{
+	font-size: 10vw;
+	color: #0081c6;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 20px;
+	color: black;
+}
+
+h3.blue
+{
+	color: #0081c6;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+table
+{
+	width: 100%;
+}
+
+/* ********************************  CLASS ITEMS   *********************************** */
+
+.responsive
+{
+    width: 5%;
+    min-width: 230px;
+    height: auto;
+    border: 10.7%
+}
+
+.container 
+{
+	position: relative;
+	text-align: center;
+	color: white
+}
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerall
+{
+	text-align: center;
+}
+
+.navbox
+{
+	padding: 15px;
+	width: 70%;
+	background-color: #0081c6;
+	color: white;
+	margin: auto;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.impactimg
+{
+    width: 100%;
+}
+
+.yotyimg
+{
+	width: 40%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.linkcolor 
+{
+    background-color: #004B87;
+    color: #FFFFFF;
+    padding: 5%;
+    border-radius: 8px;
+    border: #004B87;
+    text-align: center;
+	margin-right: 5%;
+	margin-left:5%;
+}
+
+.captions 
+{
+	font-size: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-right: 5%;
+}
+/* ********************************    ID ITEMS   *********************************** */
