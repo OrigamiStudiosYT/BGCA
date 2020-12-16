@@ -63,6 +63,33 @@ table
 
 /* ********************************  CLASS ITEMS   *********************************** */
 
+.alertClosed
+{
+   background-color: #84BD00;
+}
+
+.expand
+{
+   display:none;
+}
+
+.alertstyle
+{
+   margin-top: -20px; 
+}
+
+.colorwhite
+{
+   color: white;
+}
+
+.alertheader
+{
+   color: white;
+   text-align: center; 
+   padding: 1%;
+}
+
 .responsive
 {
     width: 5%;

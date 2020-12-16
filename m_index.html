@@ -51,7 +51,7 @@
     <script src="js/java.js"></script>
 
     <title> Boys & Girls Club Massachusetts</title>
-    <link rel="shortcut icon" href="logo_Hands.png" />
+    <link rel="shortcut icon" href="Logo_Hands.png" />
 
 </head>
 
@@ -74,6 +74,33 @@
 
 
 <body onload="screenwidthdt()">
+    <div id="alertApp" class="alertClosed alertstyle" style="display: none;">
+        <h3 class="alertheader">
+            Random information
+            &nbsp;<span>[+]</span>
+        </h3>
+        <div id="alertDesc" class="expand" style="height: 0;">
+            <p class="colorwhite">This is some random information, look at me go</p>
+        </div>
+        <script type="text/javascript">
+            $('#alertApp').click(function () {
+                var alertDesc = $('#alertDesc');
+                var indicator = $('#alertApp span:first');
+                if (indicator.html() == "[-]") {
+                    indicator.html("[&plus;]");
+                    var scrollHeight = alertDesc.prop("scrollHeight");
+                    alertDesc.css({
+                        "height": scrollHeight
+                    }).addClass("expand");
+                } else {
+                    indicator.html("[-]");
+                    alertDesc.css({
+                        "height": "42px"
+                    }).removeClass("expand");
+                }
+            });
+        </script>
+    </div>
     <he>
         <img src="img/m_logo.png" class="responsive" alt="Logo for Boys and Girls Club">
         <div class="container">
