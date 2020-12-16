@@ -1,3 +1,10 @@
+/* ********************************    GENERAL ITEMS   *********************************** */
+
+body 
+{
+    font-family: Arial;
+    margin: 5px;
+}
 
 p
 {
@@ -21,35 +28,6 @@ p.blue
    color: #0081c6;
 }
 
-.responsive
-{
-    width: 5%;
-    min-width: 230px;
-    height: auto;
-    border: 10.7%
-}
-
-body 
-{
-    font-family: Arial;
-    margin: 5px;
-}
-
-.container 
-{
-	position: relative;
-   text-align: center;
-   color: white
-}
-
-.centered 
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 h1
 {
 	font-size: 1.5em;
@@ -68,6 +46,51 @@ h3
 	color: black;
 }
 
+h3.blue
+{
+	color: #0081c6;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+table
+{
+	width: 100%;
+}
+
+/* ********************************  CLASS ITEMS   *********************************** */
+
+.responsive
+{
+    width: 5%;
+    min-width: 230px;
+    height: auto;
+    border: 10.7%
+}
+
+.container 
+{
+	position: relative;
+	text-align: center;
+	color: white
+}
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerall
+{
+	text-align: center;
+}
+
 .navbox
 {
 	padding: 15px;
@@ -79,11 +102,6 @@ h3
 	border-radius: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	text-decoration: none;
-}
-
-a
-{
 	text-decoration: none;
 }
 
@@ -99,12 +117,8 @@ a
 	border-radius: 10px;
 }
 
-table
+.linkcolor 
 {
-	width: 100%;
-}
-
-.linkcolor {
     background-color: #004B87;
     color: #FFFFFF;
     padding: 5%;
@@ -125,3 +139,4 @@ table
     margin-inline-end: 0px;
 	margin-right: 5%;
 }
+/* ********************************    ID ITEMS   *********************************** */
